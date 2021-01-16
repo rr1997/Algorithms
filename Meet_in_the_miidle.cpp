@@ -1,6 +1,22 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+// This Algorithm is used when // 
+
+// QUESTION - You are given an array of n numbers. In how many ways can you choose a subset of the numbers with sum x?
+// QUESTION LINK- https://cses.fi/problemset/task/1628
+
+
+/*
+  ALGO -
+  1. Divide The algorithm into two parts 
+  2. In one Part Apply Power Set and Store The Sum.
+  3. Now in another part do the same Thing but store in a Map and Also store the frequency.
+  4. Now itrate on Vector and get the count.
+*/
+
+
+
 
 #define int long long
 #define push_back emplace_back
